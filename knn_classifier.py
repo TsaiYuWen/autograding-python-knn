@@ -41,7 +41,7 @@ def knn_predict(xTrain, yTrain, xTest, k=3):
     predictions = []
     for j in range(columns):
         predictions.append(['N/A'])
-    
+
     return np.array(predictions)
 
 
